@@ -1,0 +1,1 @@
+deb [signed-by=/etc/apt/trusted.gpg.d/bluechi.gpg] https://raw.githubusercontent.com/eclipse-bluechi/bluechi-ppa/main/deb ./
