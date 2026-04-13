@@ -166,6 +166,62 @@ Description: systemd service controller for multi-node environments
  This package contains the BlueChi agent, which manages services on the
  local machine.
 
+Package: bluechi-agent
+Source: bluechi
+Version: 1.2.0-1
+Architecture: arm64
+Maintainer: Milan Zamazal <pdm@debian.org>
+Installed-Size: 276
+Depends: libc6 (>= 2.34), libsystemd0 (>= 248), systemd
+Filename: ./bluechi-agent_1.2.0-1_arm64.deb
+Size: 88212
+MD5sum: 4383abfb9ebff119d6034b6be4849088
+SHA1: 2d0086cd52bdf45dcf0db57423baa5815c8bd430
+SHA256: 18a6969aacc2dd6ea32c4c32a7299f4f5ec9c5f5f1f88cbeead565dca87df96e
+Section: admin
+Priority: optional
+Homepage: https://github.com/eclipse-bluechi/bluechi
+Description: systemd service controller for multi-node environments
+ Eclipse BlueChi is a systemd service controller intended for multi-node
+ environments with a predefined number of nodes and with a focus on
+ highly regulated ecosystems such as those requiring functional
+ safety (for example in cars).
+ .
+ BlueChi can also be used to control systemd services for containerized
+ applications using Podman and its ability to generate systemd service
+ configuration to run a container via quadlet.
+ .
+ This package contains the BlueChi agent, which manages services on the
+ local machine.
+
+Package: bluechi-agent
+Source: bluechi
+Version: 1.2.0-1
+Architecture: amd64
+Maintainer: Milan Zamazal <pdm@debian.org>
+Installed-Size: 283
+Depends: libc6 (>= 2.34), libsystemd0 (>= 248), systemd
+Filename: ./bluechi-agent_1.2.0-1_amd64.deb
+Size: 78896
+MD5sum: 10d278f09c1d3bd4c3060c2840048626
+SHA1: 585e7315037de9ec703c60c06a6f84bb81060c96
+SHA256: 8e9d1d86a31932225c991af3dacfb43be4ce53a9961a971750cb11e1a7cd226c
+Section: admin
+Priority: optional
+Homepage: https://github.com/eclipse-bluechi/bluechi
+Description: systemd service controller for multi-node environments
+ Eclipse BlueChi is a systemd service controller intended for multi-node
+ environments with a predefined number of nodes and with a focus on
+ highly regulated ecosystems such as those requiring functional
+ safety (for example in cars).
+ .
+ BlueChi can also be used to control systemd services for containerized
+ applications using Podman and its ability to generate systemd service
+ configuration to run a container via quadlet.
+ .
+ This package contains the BlueChi agent, which manages services on the
+ local machine.
+
 Package: bluechi-controller
 Source: bluechi
 Version: 0.10.0-1
@@ -340,6 +396,64 @@ Description: systemd service controller for multi-node environments
  This package contains the BlueChi controller, which controls the
  services across BlueChi agents.
 
+Package: bluechi-controller
+Source: bluechi
+Version: 1.2.0-1
+Architecture: arm64
+Maintainer: Milan Zamazal <pdm@debian.org>
+Installed-Size: 292
+Depends: libc6 (>= 2.34), libsystemd0 (>= 248), systemd
+Suggests: bluechictl
+Filename: ./bluechi-controller_1.2.0-1_arm64.deb
+Size: 99154
+MD5sum: cb59eaf757d5960f047c9404af540f6f
+SHA1: 20baea9800896d18df8d04c1eebb513b9ec94ab6
+SHA256: 38e6dbd14cbc260da89d5f777db99956ca9c1553fff20d1ee8bb1a7ca4b250b2
+Section: admin
+Priority: optional
+Homepage: https://github.com/eclipse-bluechi/bluechi
+Description: systemd service controller for multi-node environments
+ Eclipse BlueChi is a systemd service controller intended for multi-node
+ environments with a predefined number of nodes and with a focus on
+ highly regulated ecosystems such as those requiring functional
+ safety (for example in cars).
+ .
+ BlueChi can also be used to control systemd services for containerized
+ applications using Podman and its ability to generate systemd service
+ configuration to run a container via quadlet.
+ .
+ This package contains the BlueChi controller, which controls the
+ services across BlueChi agents.
+
+Package: bluechi-controller
+Source: bluechi
+Version: 1.2.0-1
+Architecture: amd64
+Maintainer: Milan Zamazal <pdm@debian.org>
+Installed-Size: 293
+Depends: libc6 (>= 2.34), libsystemd0 (>= 248), systemd
+Suggests: bluechictl
+Filename: ./bluechi-controller_1.2.0-1_amd64.deb
+Size: 88538
+MD5sum: b65ddfc97a120d7b32d92a8b541bd3b1
+SHA1: f6a82030dffa4e433d2614ed842cc56db47a6321
+SHA256: 66f05aa2760357205bcdf598462e64096c7faab988cd92033636eee2dbad0002
+Section: admin
+Priority: optional
+Homepage: https://github.com/eclipse-bluechi/bluechi
+Description: systemd service controller for multi-node environments
+ Eclipse BlueChi is a systemd service controller intended for multi-node
+ environments with a predefined number of nodes and with a focus on
+ highly regulated ecosystems such as those requiring functional
+ safety (for example in cars).
+ .
+ BlueChi can also be used to control systemd services for containerized
+ applications using Podman and its ability to generate systemd service
+ configuration to run a container via quadlet.
+ .
+ This package contains the BlueChi controller, which controls the
+ services across BlueChi agents.
+
 Package: bluechi-is-online
 Source: bluechi
 Version: 0.10.0-1
@@ -464,6 +578,62 @@ Size: 25788
 MD5sum: 7f27f81ff5dce572e0c5f0dd78676996
 SHA1: 9d4c958581dd25909664fec9373066d80ef9bf39
 SHA256: 602656c3ce14209da268173f50428bbc72070ac03868c0f0b5745f5228146d4f
+Section: admin
+Priority: optional
+Homepage: https://github.com/eclipse-bluechi/bluechi
+Description: systemd service controller for multi-node environments
+ Eclipse BlueChi is a systemd service controller intended for multi-node
+ environments with a predefined number of nodes and with a focus on
+ highly regulated ecosystems such as those requiring functional
+ safety (for example in cars).
+ .
+ BlueChi can also be used to control systemd services for containerized
+ applications using Podman and its ability to generate systemd service
+ configuration to run a container via quadlet.
+ .
+ This package contains bluechi-is-online, a command line utility to check
+ the connection status of BlueChi's components.
+
+Package: bluechi-is-online
+Source: bluechi
+Version: 1.2.0-1
+Architecture: arm64
+Maintainer: Milan Zamazal <pdm@debian.org>
+Installed-Size: 78
+Depends: libc6 (>= 2.34), libsystemd0 (>= 240), systemd
+Filename: ./bluechi-is-online_1.2.0-1_arm64.deb
+Size: 27522
+MD5sum: bfb2b74803e1e9486f70fd95bdfda403
+SHA1: e2da21d0a457a2e9767d993f91b0b4e451fff256
+SHA256: 08365d397fb5bbcf3707074668f180d85f9a0ccfcebe1f92ea385124caf39e59
+Section: admin
+Priority: optional
+Homepage: https://github.com/eclipse-bluechi/bluechi
+Description: systemd service controller for multi-node environments
+ Eclipse BlueChi is a systemd service controller intended for multi-node
+ environments with a predefined number of nodes and with a focus on
+ highly regulated ecosystems such as those requiring functional
+ safety (for example in cars).
+ .
+ BlueChi can also be used to control systemd services for containerized
+ applications using Podman and its ability to generate systemd service
+ configuration to run a container via quadlet.
+ .
+ This package contains bluechi-is-online, a command line utility to check
+ the connection status of BlueChi's components.
+
+Package: bluechi-is-online
+Source: bluechi
+Version: 1.2.0-1
+Architecture: amd64
+Maintainer: Milan Zamazal <pdm@debian.org>
+Installed-Size: 91
+Depends: libc6 (>= 2.34), libsystemd0 (>= 240), systemd
+Filename: ./bluechi-is-online_1.2.0-1_amd64.deb
+Size: 25828
+MD5sum: 7e7991904605a867d55154c8d1fda6dc
+SHA1: ddcebdfe94bcc9b8801d96a12964198387af8d2c
+SHA256: 63229b3a4c5a3768535c2326c2a9df2c87a09c2eac5b7475afacd5aae955f14d
 Section: admin
 Priority: optional
 Homepage: https://github.com/eclipse-bluechi/bluechi
@@ -627,6 +797,60 @@ Size: 50274
 MD5sum: 8d49a22066c16237e2031739eaa42aa7
 SHA1: 8aa755d0a6ff496ff1b8b9892de4b6f4c53e0fa5
 SHA256: c1c2d6da3f89603fe85620fd3b977171631807d132f15b97d7bab18d0e4d488e
+Section: admin
+Priority: optional
+Homepage: https://github.com/eclipse-bluechi/bluechi
+Description: systemd service controller for multi-node environments
+ Eclipse BlueChi is a systemd service controller intended for multi-node
+ environments with a predefined number of nodes and with a focus on
+ highly regulated ecosystems such as those requiring functional
+ safety (for example in cars).
+ .
+ BlueChi can also be used to control systemd services for containerized
+ applications using Podman and its ability to generate systemd service
+ configuration to run a container via quadlet.
+ .
+ This package contains bluechictl, the BlueChi command line utility.
+
+Package: bluechictl
+Source: bluechi
+Version: 1.2.0-1
+Architecture: arm64
+Maintainer: Milan Zamazal <pdm@debian.org>
+Installed-Size: 157
+Depends: libc6 (>= 2.34), libsystemd0 (>= 237), systemd, bluechi-controller
+Filename: ./bluechictl_1.2.0-1_arm64.deb
+Size: 54726
+MD5sum: 42fdee92e135f16d8bbcf2f20cf9c5f0
+SHA1: 73a4670d08b86f3963954485a2fb65d19bf137f2
+SHA256: 44225b56491bc5a45ae438e758098c5b02ec20664e1ea3172c89f6d93f123e06
+Section: admin
+Priority: optional
+Homepage: https://github.com/eclipse-bluechi/bluechi
+Description: systemd service controller for multi-node environments
+ Eclipse BlueChi is a systemd service controller intended for multi-node
+ environments with a predefined number of nodes and with a focus on
+ highly regulated ecosystems such as those requiring functional
+ safety (for example in cars).
+ .
+ BlueChi can also be used to control systemd services for containerized
+ applications using Podman and its ability to generate systemd service
+ configuration to run a container via quadlet.
+ .
+ This package contains bluechictl, the BlueChi command line utility.
+
+Package: bluechictl
+Source: bluechi
+Version: 1.2.0-1
+Architecture: amd64
+Maintainer: Milan Zamazal <pdm@debian.org>
+Installed-Size: 160
+Depends: libc6 (>= 2.34), libsystemd0 (>= 237), systemd, bluechi-controller
+Filename: ./bluechictl_1.2.0-1_amd64.deb
+Size: 50318
+MD5sum: 9158fd775e73b25998387c95d77f0d82
+SHA1: 27d890baf80bc3d4e851f1439a9025db981f7d9a
+SHA256: 4a7bac685a1cee6cc57949aee135dc2a5e2b354895a247b9c85ac3476f66130b
 Section: admin
 Priority: optional
 Homepage: https://github.com/eclipse-bluechi/bluechi
